@@ -1,18 +1,15 @@
-<script></script>
-
-<template>{{message}}</h1>
+<template>
+  <h1>{{ message }}</h1>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      message: 'Dreiiii'
+      message: 'This is some text'
     };
   }
 };
 </script>
 
-
 <style></style>
-
