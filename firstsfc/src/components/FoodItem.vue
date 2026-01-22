@@ -15,10 +15,8 @@ export default {
   }
 };
 </script>
- 
-<style></style>
 
-style>
+<style>
   #app > div {
     border: dashed black 1px;
     display: inline-block;
