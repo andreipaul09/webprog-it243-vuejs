@@ -2,33 +2,33 @@
 <html>
 <head>
   <title>My first Vue page</title>
-  <link rel="stylesheet" href="home/css/style.css?version=0.2">">
-  <link rel="stylesheet" href="home/css/flexbox-grid.css">
-  <link rel="stylesheet" href="home/css/images.css">
+  <link rel="stylesheet" href="css/style.css?version=0.2">">
+  <link rel="stylesheet" href="css/flexbox-grid.css">
+  <link rel="stylesheet" href="css/images.css">
 
 </head>
 <body>
-  <div class="container">
-  <div>About Me <br>
-(Do not include birthdate / age / contact information)<br><br></div>
-  <div>Education / Achievements<br></div>
-  <div>IT Experience<br><br></div>  
-  <div>Hobbies & Interests<br>
-Basketball and watching series and movies<br><br></div>
-  <div>Goals In Life / Dream<br><br></div>
-  <div>Picture Gallery<br></div>  
-  <div>Course: BSIT<br><br></div> 
-</div>
-
-<div id="app">
-
-  <div>
-    <img v-for="x in manyFoods" v-bind:src="x">
-  </div>
-
-</div>
 
 <h1>Vue Example</h1>
+
+<div class="container">
+        <header> <h1>Personal Profile Web page </h1>  </header>
+        <main>
+          <section class="main-content">
+            <div>1 About Me</div>
+            <div>2 Education / Achievements</div>
+            <div>3 Course </div>  
+            <div>4 IT Experience</div>
+            <div>5 Hobbies & Interests</div>
+            <div>6 Goals In Life / Dream</div>  
+            <div>7 Picture Gallery</div>
+          </section>
+          <aside class="sidebar">
+            </aside>
+        </main>
+        <footer> Asia Pacific College   </footer>
+</div>
+
 
 <p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
 
@@ -36,9 +36,15 @@ Basketball and watching series and movies<br><br></div>
   {{ message }}
 </div>
 
+<div id="app2">
+  <div>
+    <img v-for="x in manyFoods" v-bind:src="x">
+  </div>
+</div>
+
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
 <script src="js/vue.js"></script>
-
+<script src="js/images.js"></script>
 </body>
 </html>
