@@ -1,5 +1,4 @@
-
-  const app2 = Vue.createApp({
+ const app2 = Vue.createApp({
    data() {
     return {
       manyFoods: [
@@ -9,12 +8,11 @@
         'https://www.w3schools.com/vue/img_soup.svg',
         'https://www.w3schools.com/vue/img_fish.svg',
         'https://www.w3schools.com/vue/img_pizza.svg',
-        'https://www.w3schools.com/vue/img_rice.svg',
+        'https://www.w3schools.com/vue/img_rice.svg'
       ]
     }
    }
   })
   
-  
-  app.mount('#app2')
+  app2.mount('#app2')
 
