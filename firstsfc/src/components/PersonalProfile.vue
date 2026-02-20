@@ -1,33 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Page Title</title>
-    <link rel="stylesheet" href="css/mystyle.css">
-</head>
-<body>
- 
-<h1>Personal Profile Web Page of dreithecoolest</h1>
+<template>
+<div class="container">
+    <header> <h1>Personal Profile Web page of dreithecoolest</h1>  </header>
+    <main>
+      <section class="main-content">
+        <div>1 About Me - 17 yrs old</div>
+        <div>2 Education / Achievements</div>
+        <div>3 Course - BSIT</div>  
+        <div>4 IT Experience</div>
+        <div>5 Hobbies & Interests</div>
+        <div>6 Goals In Life / Dream</div>  
+        <div>7 Picture Gallery</div>
+      </section>
+      <aside class="sidebar">
+        </aside>
+    </main>
+    <footer> Asia Pacific College   </footer>
+  </div>
+</template>
 
-<p>
-About Me <br>
-(Do not include birthdate / 17 / contact information)<br><br>
-
-Education / Achievements<br>
-Course: BSIT<br><br>
-
-IT Experience<br><br>
-
-Hobbies & Interests<br>
-Basketball and watching series and movies<br><br>
-
-Goals In Life / Dream<br>
-To travel every country
-Having Toyota GR86<br>
-
-Picture Gallery<br>
-</p>
-
-
-
-</body>
-</html>
+<script></script>
+<style></style>
